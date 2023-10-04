@@ -16,6 +16,10 @@ public class Operazione {
             case '/' :
                 Division.divisione(x,y);
                 break;
+            case '^' :
+                double uguale = Potenza.timesItself(x,y);
+                System.out.println("Il risultato è: "+uguale);
+                break;
             default:
                 System.out.println("Operazione errata!");
                 break;
